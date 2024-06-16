@@ -1,0 +1,26 @@
+.icons{
+  padding: 50px 50px 50px 50px;
+  display: grid;
+  grid-template-columns: 20vh 20vh 20vh 20vh 20vh 20vh 20vh;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+}
+  
+.icon{
+  display: inline;
+  transform: (0.9);
+  height: 20vh;
+  width: auto;
+}
+
+.icon:hover{
+  transform: scale(1.2);
+}
+
+.back-button{
+  background-color: rgba(0,0,0,0);
+  color: white;
+  font-size: 3.5vh;
+  border: none;
+  padding: 5px 0 0 0 ;
+}
