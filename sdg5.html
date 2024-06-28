@@ -1,14 +1,76 @@
 <!DOCTYPE html>
 <html lang = "en">
+  
   <head>
-      <link rel="stylesheet" href="styles.css" />
-      <meta charset="UTF-8" /> 
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            orange: '#ff5e29',
+          }
+        }
+      }
+    }
+    </script>
+    <meta charset="UTF-8" />
+    <title>SDG 5</title>
     <meta name="viewport" content= "width=device-width, initial-scale=1.0" /> 
   </head>
-  <body style ="background-color: #ef3e27;">
-    <a href = "index.html">
-    <button class = "back-button"> <</button>
-    </a>
-    <h1 class = "heading">5. GENDER EQUALITY</h1>
+  <header class = "body-font">
+    <a class = "text-indigo-200" href = "index.html"><button href = "index.html" class = "back-button"> < </button></a>
+    <a class="flex order-first lg:order-none lg: title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
+      <span class="ml-3 text-4xl text-orange title-font">GENDER EQUALITY</span>
+    </a>  
+  </header>
+  <body class = "bg-gray-900">
+    <section class="text-white body-font">
+      <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img class="object-cover object-center rounded" alt="Female Doctor Consulting Patient's Parents" src="https://imgs.search.brave.com/egu4s85SHlS1OF0zwQeM7QQGBsP2bvzWjEoC0F3CGb4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTA2/MjE4Njg0Ni9waG90/by9jbGluaWNhbC1k/b2N0b3ItZ2l2aW5n/LXRlc3QtcmVzdWx0/cy10by1wYXRpZW50/cy5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9RDFPTC01Qks2/d3gwVFFsLUNJWi1Q/Tmk1aUMtZngtb1FX/Rzc3QWNPNFhxOD0">
+        </div>
+        <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-indigo-200">The Aim
+          </h1>
+          <p class="mb-8 leading-relaxed">Sustainable Development Goal 5 (SDG 5) targets achieving gender equality and empowering all women and girls. It aims to, by 2030, end discrimination and violence against women, eliminate harmful practices like child marriage, and value unpaid care and domestic work. It also focuses on ensuring women's full participation in leadership roles, access to sexual and reproductive health, equal rights to economic resources, and enhancing women's empowerment through technology. Additionally, SDG 5 promotes adopting and enforcing policies and legislation that support gender equality​.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="text-white body-font">
+      <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        <div class="text-center lg:w-2/3 w-full">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-indigo-200">Progress</h1>
+          <p class="mb-8 leading-relaxed">Progress towards gender equality is clearly off track. Harmful practices like child marriage and female genital mutilation are decreasing, but not fast enough to keep pace with population growth. Gender parity, especially in women's participation in public life and managerial roles, remains distant. At the current rate, achieving gender parity in managerial positions will take 176 years. Urgent action is needed to challenge biased social norms, eliminate harmful practices, and change discriminatory laws. Increasing women's leadership roles and investments in gender equality are crucial at national, regional, and global levels.</p>
+        </div>
+        <img class="lg:w-2/6 md:w-3/6  w-5/6 mb-10 object-cover object-center rounded" alt="Gender Equality Visualization Using Chalk" src = "https://imgs.search.brave.com/pHcdvYb_V6j3G4f59cGAxKHhgj19MNmGsBxZCQO40sY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA0LzU2LzYzLzMx/LzM2MF9GXzQ1NjYz/MzEzNl9CZGptbWhM/ZVFOTGFVZFA4WnNP/NjVLRThWTW1FM1dq/OS5qcGc">
+      </div>
+    </section>
+    <section class = "text-white body-font">
+      <div class=" container mx-auto px-5 items-center pb-6 flex-col">
+        <h1 class="title-font sm:text-3xl text-4xl font-medium text-indigo-200">Key Actions</h1>
+        
+        <nav class="list-none mb-8 leading-relaxed py-5">
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Ending All Forms of Discrimination and Violence Based on Gender Internationally</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Eliminating Harmful Practices like Child and Forced Marriage</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Valuing Unpaid Work through Public Services and Policies</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Ensuring Participation by Both Genders and Providing Opportunities for Leadership to All</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Adopting and Strengthening Policies for Promotion of the Topic</p>
+          </li>
+        </nav>
+      </div>
+    </section>
   </body>
 </html>
