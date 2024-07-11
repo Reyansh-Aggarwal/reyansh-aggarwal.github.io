@@ -1,14 +1,81 @@
 <!DOCTYPE html>
 <html lang = "en">
+  
   <head>
-      <link rel="stylesheet" href="styles.css" />
-      <meta charset="UTF-8" /> 
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            blue: '#00afda',
+          }
+        }
+      }
+    }
+    </script>
+    <meta charset="UTF-8" />
+    <title>SDG 6</title>
     <meta name="viewport" content= "width=device-width, initial-scale=1.0" /> 
   </head>
-  <body style ="background-color: #48CAF5;">
-    <a href = "index.html">
-    <button class = "back-button"> <</button>
-    </a>
-    <h1 class = "heading">6. CLEAN WATER AND SANITATION</h1>
+  <header class = "body-font">
+    <a class = "text-indigo-200" href = "index.html"><button href = "index.html" class = "back-button"> < </button></a>
+    <a class="flex order-first lg:order-none lg: title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
+      <span class="ml-3 text-4xl text-blue title-font">CLEAN WATER AND SANITATION</span>
+    </a>  
+  </header>
+  <body class = "bg-gray-900">
+    <section class="text-white body-font">
+      <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img class="object-cover object-center rounded" alt="Female Doctor Consulting Patient's Parents" src="https://imgs.search.brave.com/egu4s85SHlS1OF0zwQeM7QQGBsP2bvzWjEoC0F3CGb4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTA2/MjE4Njg0Ni9waG90/by9jbGluaWNhbC1k/b2N0b3ItZ2l2aW5n/LXRlc3QtcmVzdWx0/cy10by1wYXRpZW50/cy5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9RDFPTC01Qks2/d3gwVFFsLUNJWi1Q/Tmk1aUMtZngtb1FX/Rzc3QWNPNFhxOD0">
+        </div>
+        <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-indigo-200">The Aim
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            By 2030, ensure availability and sustainable management of water and sanitation for all. The targets include achieving universal and equitable access to safe and affordable drinking water, and adequate and equitable sanitation and hygiene for all. It focuses on improving water quality by reducing pollution, minimizing the release of hazardous chemicals, and increasing water-use efficiency. The goal also emphasizes protecting and restoring water-related ecosystems, and expanding international cooperation and capacity-building support to developing countries in water and sanitation-related activities. Additionally, it aims to support and strengthen the participation of local communities in improving water and sanitation management.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="text-white body-font">
+      <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        <div class="text-center lg:w-2/3 w-full">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-indigo-200">Progress</h1>
+          <p class="mb-8 leading-relaxed">
+            None of the SDG 6 targets are on track to be met. As of 2022, 2.2 billion people were without access to safely managed drinking water and 3.5 billion lacked access to safely managed sanitation. Between 2002 and 2021 droughts affected more than 1.4 billion people. Roughly half of the world’s population experienced severe water scarcity for at least part of the year, while one quarter faced ‘extremely high’ levels of water stress. Climate change worsens these issues, posing significant risks to social stability. While transboundary river and lake basins are home to approximately 40% of the world’s population and are shared by 153 countries, less than a fifth of these countries have operational arrangements for cooperation in place for all their transboundary waters. Coordinated global action on integrated water management, addressing the impacts of climate change on water resources, and better management of shared waters are key to restoring focus on the Goal.</p>
+        </div>
+        <img class="lg:w-2/6 md:w-3/6  w-5/6 mb-10 object-cover object-center rounded" alt="Gender Equality Visualization Using Chalk" src = "https://imgs.search.brave.com/pHcdvYb_V6j3G4f59cGAxKHhgj19MNmGsBxZCQO40sY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA0LzU2LzYzLzMx/LzM2MF9GXzQ1NjYz/MzEzNl9CZGptbWhM/ZVFOTGFVZFA4WnNP/NjVLRThWTW1FM1dq/OS5qcGc">
+      </div>
+    </section>
+    <section class = "text-white body-font">
+      <div class=" container mx-auto px-5 items-center pb-6 flex-col">
+        <h1 class="title-font sm:text-3xl text-4xl font-medium text-indigo-200">Key Actions</h1>
+        
+        <nav class="list-none mb-8 leading-relaxed py-5">
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Improving Water Quality and Promoting Safe Reuse of Water</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Increasing Water Use Efficiency</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Expanding Water and Sanitation Services and Protecting Water-related Ecosystems</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Implementing Integrated Approaches Towards Water Resource Management </p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Increasing Investment in Infrastructure</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Strengthening Participation of Local Communities and Groups</p>
+          </li>
+        </nav>
+      </div>
+    </section>
   </body>
 </html>
