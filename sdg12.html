@@ -1,14 +1,86 @@
 <!DOCTYPE html>
 <html lang = "en">
+  
   <head>
-      <link rel="stylesheet" href="styles.css" />
-      <meta charset="UTF-8" /> 
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            blue: '#00afda',
+            custom_yellow: '#d08e25',
+            custom_red: '#901135',
+            custom_orange: '#f36d20',
+            custom_pink: '#e20c85',
+          }
+        }
+      }
+    }
+    </script>
+    <meta charset="UTF-8" />
+    <title>SDG 12</title>
     <meta name="viewport" content= "width=device-width, initial-scale=1.0" /> 
   </head>
-  <body style ="background-color: #f7bd03;">
-    <a href = "index.html">
-    <button class = "back-button"> <</button>
-    </a>
-    <h1 class = "heading">7. AFFORDABLE AND CLEAN ENERGY</h1>
+  <header class = "body-font">
+    <a class = "text-indigo-200" href = "index.html"><button href = "index.html" class = "back-button"> < </button></a>
+    <a class="flex order-first lg:order-none lg: title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
+      <span class="ml-3 text-4xl text-custom_yellow title-font">RESPONSIBLE CONSUMPTION AND PRODUCTION</span>
+    </a>  
+  </header>
+  <body class = "bg-gray-900">
+    <section class="text-white body-font">
+      <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img class="object-cover object-center rounded" alt="House" src="https://imgs.search.brave.com/npGqjqjpaV5z1NqhAVei6CZjrRws38WP4yJIZEg22Gc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI2/NzIwMjA1NC9waG90/by9yZWZ1c2UtY29t/cGFjdG9yLXdvcmtp/bmctYXQtZ2FyYmFn/ZS1kdW1wLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1Ueldv/NllWQi1QMVA0Tlp6/YU01cm9PaUtkWS1o/MjVldzhCQ3YtUlZi/amNnPQ">
+        </div>
+        <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-indigo-200">The Aim
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            Sustainable Development Goal 12 aims to ensure sustainable consumption and production patterns. The key targets include implementing sustainable management and efficient use of natural resources, reducing waste generation through prevention, reduction, recycling, and reuse, encouraging companies to adopt sustainable practices, promoting sustainable public procurement, and raising awareness for sustainable development and lifestyles. It also focuses on achieving the environmentally sound management of chemicals and wastes and supporting developing countries in strengthening their scientific and technological capacity for sustainable consumption and production.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="text-white body-font">
+      <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        <div class="text-center lg:w-2/3 w-full">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-indigo-200">Progress</h1>
+          <p class="mb-8 leading-relaxed">
+            The crisis of unsustainable consumption and production patterns worldwide is fuelling the ongoing triple planetary crisis of climate change, nature loss and pollution. Domestic material consumption and material footprint continue to rise, some one billion meals worth of edible food are wasted every day in homes around the world and stockpiles of e-waste steadily grow. While countries are fulfilling their environmental agreement obligations and embracing comprehensive approaches to address environmental degradation, public funding supporting the production and consumption of fossil fuels has more than tripled since 2015, impeding the transition to net-zero emissions. Each stage of production or manufacturing presents an opportunity to reduce resource and fossil fuel use, foster innovation, conserve energy, cut emissions, and advocate for a circular economy approach.
+          </p>
+        </div>
+        <img class="lg:w-2/6 md:w-3/6  w-5/6 mb-10 object-cover object-center rounded" alt="Trash Bins" src = "https://imgs.search.brave.com/xjapcRM4zFapkf3uKIF6GO89RWqAs7B4N821DeygWgg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y29uc2VydmUtZW5l/cmd5LWZ1dHVyZS5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTYvMTEvcmVjeWNs/ZS1jb250YWluZXJz/LmpwZw">
+      </div>
+    </section>
+    <section class = "text-white body-font">
+      <div class=" container mx-auto px-5 items-center pb-6 flex-col">
+        <h1 class="title-font sm:text-3xl text-4xl font-medium text-indigo-200">Key Actions</h1>
+        
+        <nav class="list-none mb-8 leading-relaxed py-5">
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Promoting Sustainable Resource Management</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Reducing Waste Generation</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Supporting Sustainable Practices</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Combating Food Waste</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Encouraging Resource Planning</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Encouraging Corporate Responsibility</p>
+          </li>
+        </nav>
+      </div>
+    </section>
   </body>
 </html>
