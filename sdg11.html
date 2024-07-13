@@ -1,14 +1,86 @@
 <!DOCTYPE html>
 <html lang = "en">
+  
   <head>
-      <link rel="stylesheet" href="styles.css" />
-      <meta charset="UTF-8" /> 
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            blue: '#00afda',
+            custom_yellow: '#f99e21',
+            custom_red: '#901135',
+            custom_orange: '#f36d20',
+            custom_pink: '#e20c85',
+          }
+        }
+      }
+    }
+    </script>
+    <meta charset="UTF-8" />
+    <title>SDG 11</title>
     <meta name="viewport" content= "width=device-width, initial-scale=1.0" /> 
   </head>
-  <body style ="background-color: #f7bd03;">
-    <a href = "index.html">
-    <button class = "back-button"> <</button>
-    </a>
-    <h1 class = "heading">7. AFFORDABLE AND CLEAN ENERGY</h1>
+  <header class = "body-font">
+    <a class = "text-indigo-200" href = "index.html"><button href = "index.html" class = "back-button"> < </button></a>
+    <a class="flex order-first lg:order-none lg: title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
+      <span class="ml-3 text-4xl text-custom_yellow title-font">SUSTAINABLE CITIES AND COMMUNITIES</span>
+    </a>  
+  </header>
+  <body class = "bg-gray-900">
+    <section class="text-white body-font">
+      <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img class="object-cover object-center rounded" alt="House" src="https://imgs.search.brave.com/LYGzOEO4lx3R2f3RcjOJUiRXWwgMAcq0YbS6XCHwYyQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzYx/NTA1MGI1NTdlMWE0/MThkZGRlOWI2OS8x/NjM1NjkzMzkwOTAx/LTBHTE9INTNGVlNU/SzZLTzdITVNQL2Jl/c3Bva2UtaG91c2Ut/cG9ydHJhaXQtMS5q/cGc">
+        </div>
+        <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-indigo-200">The Aim
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            Sustainable Development Goal 11 focuses on making cities inclusive, safe, resilient, and sustainable. Key targets include ensuring access to adequate, safe, and affordable housing and basic services, providing safe, affordable, accessible, and sustainable transport systems, enhancing inclusive and sustainable urbanization, and protecting cultural and natural heritage. It also aims to reduce the environmental impact of cities, particularly air quality and waste management, and to improve disaster risk management.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="text-white body-font">
+      <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        <div class="text-center lg:w-2/3 w-full">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-indigo-200">Progress</h1>
+          <p class="mb-8 leading-relaxed">
+            More than half the world’s population currently reside in cities. However, cities are grappling with a multitude of complex issues, made more difficult by rising global urban poverty levels in the wake of COVID-19. From rising slum populations, insufficient public transport, city expansion outpacing population growth to threats to critical infrastructure and disruption of basic services by disasters, it is essential that cities are equipped to adequately handle these challenges. As the world turns more urban, with nearly 70% of the global population projected to reside in cities by 2050, critical infrastructure, affordable housing, efficient transport and essential social services are crucial for creating resilient, sustainable cities for all.
+          </p>
+        </div>
+        <img class="lg:w-2/6 md:w-3/6  w-5/6 mb-10 object-cover object-center rounded" alt="City overview" src = "https://imgs.search.brave.com/PlE6IpmEWW4XJanFp2FfOhzMZ0pcnjsqWNIrWLGLzdU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2lzY28uY29tL2Mv/ZW4vdXMvc29sdXRp/b25zL2luZHVzdHJp/ZXMvc21hcnQtY29u/bmVjdGVkLWNvbW11/bml0aWVzL3doYXQt/aXMtYS1zbWFydC1j/aXR5L19qY3JfY29u/dGVudC9HcmlkL3N1/YmNhdGVnb3J5X2F0/bC9sYXlvdXQtc3Vi/Y2F0ZWdvcnktYXRs/L2JsYWRlXzIvYmxh/ZGVDb250ZW50cy9h/bmNob3JfaW5mby5p/bWcuanBnLzE2MjE5/MjQ2NDg2MzcuanBn">
+      </div>
+    </section>
+    <section class = "text-white body-font">
+      <div class=" container mx-auto px-5 items-center pb-6 flex-col">
+        <h1 class="title-font sm:text-3xl text-4xl font-medium text-indigo-200">Key Actions</h1>
+        
+        <nav class="list-none mb-8 leading-relaxed py-5">
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Developing Affordable Housing</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Improving Public Transportation Systems</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Implementing Sustainable Urban Planning</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Increasing availability of Green Spaces</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Strengthening Protection from Disaster Risk Protection</p>
+          </li>
+          <li>
+            <p class="font-bold leading-relaxed pb-2">Reducing Pollution</p>
+          </li>
+        </nav>
+      </div>
+    </section>
   </body>
 </html>
