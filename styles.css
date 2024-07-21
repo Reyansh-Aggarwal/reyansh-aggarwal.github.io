@@ -1,7 +1,7 @@
 .icons{
   padding: 50px 50px 50px 50px;
   display: grid;
-  grid-template-columns: 20vh 20vh 20vh 20vh 20vh 20vh 20vh;
+  grid-template-columns: 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
   grid-template-rows: auto auto auto;
   justify-content: center;
 }
@@ -9,7 +9,7 @@
 .icon{
   display: inline;
   transform: (0.9);
-  height: 20vh;
+  height: 10vh;
   width: auto;
 }
 
