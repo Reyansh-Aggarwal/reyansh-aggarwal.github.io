@@ -1,21 +1,25 @@
 .icons{
   padding: 50px 50px 50px 50px;
   display: grid;
-  grid-template-columns: 17vh 17vh 17vh 17vh 17vh 17vh 17vh;
-  grid-template-rows: auto auto auto;
+  grid-template-columns: 24vh 24vh 24.5vh 24vh 24vh 24vh;
+  grid-template-rows: 24.5vh 24.5vh 24.5vh;
   justify-content: center;
 }
-  
-.icon{
+
+#logo, .icon{
   display: inline;
+  height: 23vh;
+  width:auto;
+}
+
+.icon{
   transform: (0.9);
-  height: 17vh;
-  width: auto;
 }
 
 .icon:hover{
   transform: scale(1.2);
 }
+
 
 .back-button{
   background-color: rgba(0,0,0,0);
